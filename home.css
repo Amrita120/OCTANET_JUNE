@@ -1,0 +1,429 @@
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 1;
+}
+
+#logo{
+    background-image: url('logo.png');
+    background-size:cover;
+    width: 310px;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    color: #002e48;
+    font-family: 'DM Serif Display', serif;
+    padding: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all ease-in-out 0.5s;
+}
+a:hover{
+    color: #a31521;
+}
+p{
+    text-decoration: none;
+    color: #002e48;
+    font-family: 'DM Serif Display', serif;
+    padding: 0px;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.insta{
+    background-image: url('insta.png');
+    background-size: contain;
+    height: 33px;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+.yelp{
+    background-image: url('yelp.jpeg');
+    background-size: contain;
+    height: 33px;
+    width: 100px;
+    background-repeat: no-repeat;   
+    margin-right: 10px;
+}
+#vid{
+    align-self: center;
+    margin-top:  95px; 
+    z-index: 0;
+}
+#vid.seek {
+    display: none;
+  }
+.locationbar{
+    background-color: #a31521;
+    text-align: center;
+    color: white;
+}
+.locationpin{
+    color: white;
+    font-weight: normal;
+}
+.locationpin:hover{
+    color: bisque;
+    font-weight: 700;
+}
+
+.aboutus{
+    display: flex;
+    justify-content: space-between;
+    background-color: #cfe6fd;
+}
+#food2{
+    background-image: url('food2.avif');
+    background-size: cover;
+    height: 400px;
+    width: 1000px;
+    margin-left: 050px;
+}
+#inneraboutus{
+    height: 400px;
+    width: 600px;
+    margin-right: 400px;
+}
+#inneraboutus h1{
+    font-size: 60px;
+    font-family: 'DM Serif Display', serif;
+    margin-left: 200px;
+}
+#inneraboutus p{
+    color: #a31521;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    margin-left: 100px;
+    font-size: 20px;
+    
+}
+#btnaboutus{
+    width: 160px;
+    height: 60px;
+    background-color: #002e48;
+    margin-left: 300px;
+    margin-top: 0px ;
+    color: white;
+    font-size: 25px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btnaboutus:hover{
+    background-color: #a31521;
+}
+
+
+
+
+
+.catering{
+    display: flex;
+    justify-content: space-between;
+    background-color: #cfe6fd;
+}
+#food3{
+    background-image: url('food3.jpg');
+    background-size: cover;
+    height: 330px;
+    width: 1000px;
+    margin-left: 050px;
+    margin-top: 30px;
+}
+#innercatering{
+    height: 400px;
+    width: 600px;
+    margin-right: 400px;
+}
+#innercatering h1{
+    font-size: 60px;
+    font-family: 'DM Serif Display', serif;
+    margin-left: 200px;
+}
+#innercatering p{
+    color: #a31521;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    margin-left: 100px;
+    font-size: 20px;
+    
+}
+#btncatering{
+    width: 160px;
+    height: 60px;
+    background-color: #002e48;
+    margin-left: 300px;
+    margin-top: 0px;
+    color: white;
+    font-size: 25px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btncatering:hover{
+    background-color: #a31521;
+}
+
+
+
+
+
+
+.party{
+    display: flex;
+    justify-content: space-between;
+    background-color: #cfe6fd;
+}
+#food4{
+    background-image: url('food4.jpg');
+    background-size: cover;
+    height: 350px;
+    width: 1000px;
+    margin-left: 050px;
+    margin-top: 50px;
+}
+#innerparty{
+    height: 400px;
+    width: 600px;
+    margin-right: 400px;
+}
+#innerparty h1{
+    font-size: 60px;
+    font-family: 'DM Serif Display', serif;
+    margin-left: 200px;
+}
+#innerparty p{
+    color: #a31521;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    margin-left: 100px;
+    font-size: 20px;
+    
+}
+#btnparty{
+    width: 160px;
+    height: 60px;
+    background-color: #002e48;
+    margin-left: 300px;
+    margin-top: 0px;
+    color: white;
+    font-size: 25px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btnparty:hover{
+    background-color: #a31521;
+}
+.reservation{
+    background-color: #002e48;
+}
+.reservation h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'DM Serif Display', serif;
+}
+.form input{
+    height: 30px;
+}
+.form{
+    margin-left: 700px;
+}
+#btnreserve{
+    height: 30px;
+    width: 120px;
+    background-color: #a31521;
+    border: 2px solid #a31521;
+    color: white;
+    cursor: pointer;
+    font-family: 'DM Serif Display', serif;
+}
+#btnreserve:hover{
+    background-color: #8e3b42;
+}
+
+
+
+.gallery{
+    width: 2000px;
+    height: 1500px;
+    display: inline-block;
+}
+.gallery div{
+    display: inline-block;
+}
+.f1{
+    background-image: url("f1.jpeg");
+    background-size: cover;
+    height: 700px;
+    width: 700px;
+}
+.f2{
+    background-image: url('f2.jpeg');
+    background-size: cover;
+    height: 360px;
+    width: 360px;
+    position: relative;
+    top: -340px;
+}
+.f3{
+    background-image: url('f3.jpeg');
+    background-size: cover;
+    height: 360px;
+    width: 360px;
+    position: relative;
+    top: -340px;
+}
+.f4{
+    background-image: url('f4.jpeg');
+    background-size: cover;
+    height: 360px;
+    width: 360px;
+    position: relative;
+    top: -340px;
+}
+.f5{
+    background-image: url('f5.jpeg');
+    background-size: cover;
+    height: 330px;
+    width: 360px;
+    position: relative;
+    top: -810px;
+    left: 703px;
+}
+.f6{
+    background-image: url('f6.jpeg');
+    background-size: cover;
+    height: 330px;
+    width: 360px;
+    position: relative;
+    left: 703px;
+    top: -810px;
+}
+.f7{
+    background-image: url('f7.jpeg');
+    background-size: cover;
+    height: 330px;
+    width: 361.5px;
+    position: relative;
+    left: 703px;
+    top: -810px;
+}
+.f8{
+    background-image: url('f8.jpeg');
+    background-size: cover;
+    height: 805px;
+    width: 805px;
+    position: relative;
+    left: -1200px;
+}
+.f9{
+    background-image: url('f9.jpeg');
+    background-size: cover;
+    height: 397px;
+    width: 360px;
+    position: relative;
+    left: 703px;
+    top: -808px;
+}
+.f10{
+    background-image: url('f10.jpeg');
+    background-size: cover;
+    height: 397px;
+    width: 363px;
+    position: relative;
+    top: -808px;
+    left: 702px;
+}
+.f11{
+    background-image: url('f11.jpeg');
+    background-size: cover;
+    height: 397px;
+    width: 363px;
+    position: relative;
+    top: -808px;
+    left: 702px;
+}
+.f12{
+    background-image: url('f12.jpeg');
+    background-size: cover;
+    height: 397px;
+    width: 361px;
+    position: relative;
+    left: -395px;
+    top: -401px;
+}
+.f13{
+    background-image: url('f13.jpeg');
+    background-size: cover;
+    height: 397px;
+    width: 358px;
+    position: relative;
+    top: -399px;
+    left: -391px;
+}
+.f14{
+    background-image: url('f14.jpeg');
+    background-size: cover;
+    height: 397px;
+    width: 363px;
+    position: relative;
+    top: -799px;
+    left: 1435px;
+}
+
+.gallery div:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    z-index: 10;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #a31521;
+}
+.navlocation h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+}
+.navlocation p{
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.navhour h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+}
+.navhour p{
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.navcontact h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+}
+.navcontact p{
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+
